@@ -1,7 +1,20 @@
+'use client'
 
+import NavbarComponent from "./components/navbarComponent";
 
 export default function Home() {
   return (
-<h1>Mikes Portfolio</h1>
+     
+      <>
+      <NavbarComponent/>
+      
+      
+      </>
+    
+    
+    
+   
+    
+
   );
 }

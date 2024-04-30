@@ -1,4 +1,4 @@
-# Portfoliio
+# Portfolio
 
 **Description**: Create a portfolio to dispaly my achivements and skills
 
@@ -8,11 +8,15 @@
 
 **Date**: 4/30/24
 
-**Vercel**: 
+**Vercel**: https://portfolio-nine-sepia-42.vercel.app/
 
 **Linkedin**: https://www.linkedin.com/in/mike-heckerman-08867a306/
 
 **Github**: https://github.com/mkheck13/portfolio
 
 **Resume**: 
+
+**Phone**: (209)645-1561
+
+**Email**: mkheck13@gmail.com
 
