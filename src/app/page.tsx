@@ -2,6 +2,6 @@
 
 export default function Home() {
   return (
-<h1>Mike's Portfolio</h1>
+<h1>Mikes Portfolio</h1>
   );
 }
