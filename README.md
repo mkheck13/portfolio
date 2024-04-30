@@ -12,7 +12,7 @@
 
 **Linkedin**: https://www.linkedin.com/in/mike-heckerman-08867a306/
 
-**Github**: 
+**Github**: https://github.com/mkheck13/portfolio
 
 **Resume**: 
 
