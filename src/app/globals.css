@@ -29,3 +29,12 @@ body {
 .NavBG {
   background-color: rgba(224, 224, 224, .55);
 }
+
+.icon {
+  max-width: 30px;
+}
+
+.btnRow {
+  background-color: blueviolet;
+  
+}

@@ -1,20 +1,37 @@
 'use client'
 
-import NavbarComponent from "./components/NavbarComponent";
+import React from 'react'
+import NavbarComponent from "./Components/NavbarComponent";
+import SkillsComponent from './Components/SkillsComponent';
+import AboutMeComponent from './Components/AboutMeComponent'
 
-export default function Home() {
-  return (
-     
-      <>
+const page = () => {
+
+  return(
+
+    <>
       <NavbarComponent/>
-      
-      
-      </>
-    
-    
-    
-   
-    
 
-  );
+      <div>
+        <AboutMeComponent/>
+        
+
+        
+
+        <div>
+          <SkillsComponent/>
+
+
+        </div>
+
+
+
+      </div>
+    
+    
+    
+    </>
+
+  )
 }
+export default page
