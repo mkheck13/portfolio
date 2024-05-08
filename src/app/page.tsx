@@ -1,37 +1,30 @@
-'use client'
+"use client";
 
-import React from 'react'
+import React from "react";
 import NavbarComponent from "./Components/NavbarComponent";
-import SkillsComponent from './Components/SkillsComponent';
-import AboutMeComponent from './Components/AboutMeComponent'
+import SkillsComponent from "./Components/SkillsComponent";
+import AboutMeComponent from "./Components/AboutMeComponent";
+import ProjectsComponent from "./Components/ProjectsComponent";
+import FooterComponent from "./Components/FooterComponent";
 
 const page = () => {
-
-  return(
-
+  return (
     <>
-      <NavbarComponent/>
-
-      <div>
-        <AboutMeComponent/>
-        
-
-        
+      <div className="flex min-h-screen flex-col  bg-[#121212]">
+        <NavbarComponent />
 
         <div>
-          <SkillsComponent/>
+          <AboutMeComponent />
 
+          <div>
+            <ProjectsComponent />
 
+            <FooterComponent/>
+
+          </div>
         </div>
-
-
-
       </div>
-    
-    
-    
     </>
-
-  )
-}
-export default page
+  );
+};
+export default page;

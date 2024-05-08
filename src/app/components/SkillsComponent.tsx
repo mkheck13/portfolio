@@ -96,13 +96,13 @@ export default function SkillsComponent() {
             />
             <span className="text">VS Code</span>
           </div>
-          <div className="d-flex align-items-center mt-3">
+          {/* <div className="d-flex align-items-center mt-3">
             <img
               className="icon"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg"
             />
             <span className="text">Visual Studio</span>
-          </div>
+          </div> */}
 
           <div className="d-flex align-items-center mt-4">
             <img
@@ -111,15 +111,15 @@ export default function SkillsComponent() {
             />
             <span className="text">Figma</span>
           </div>
-          <div className="d-flex align-items-center mt-3">
+          {/* <div className="d-flex align-items-center mt-3">
             <img className="icon" src={unity} />
             <span className="text">Unity</span>
-          </div>
+          </div> */}
 
-          <div className="d-flex align-items-center mt-3">
+          {/* <div className="d-flex align-items-center mt-3">
             <img className="icon" src={postman} />
             <span className="text">Postman</span>
-          </div>
+          </div> */}
 
           <div className="d-flex align-items-center mt-3">
             <img
