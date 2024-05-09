@@ -7,7 +7,7 @@ import AboutMeComponent from "./Components/AboutMeComponent";
 import ProjectsComponent from "./Components/ProjectsComponent";
 import FooterComponent from "./Components/FooterComponent";
 
-const page = () => {
+const Home = () => {
   return (
     <>
       <div className="flex min-h-screen flex-col  bg-[#121212]">
@@ -32,4 +32,4 @@ const page = () => {
     </>
   );
 };
-export default page;
+export default Home;
