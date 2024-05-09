@@ -17,7 +17,12 @@ const page = () => {
           <AboutMeComponent />
 
           <div>
+
+          <SkillsComponent/>
+
             <ProjectsComponent />
+
+            
 
             <FooterComponent/>
 

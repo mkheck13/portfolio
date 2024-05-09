@@ -1,17 +1,12 @@
 "use client";
 
-import { Button } from "flowbite-react";
 import Image from 'next/image'
 import React from 'react'
 import {TypeAnimation} from 'react-type-animation'
-import github from '../Assets/github.jpg'
-import email from '../Assets/email.jpg'
-import phone from '../Assets/phone.jpg'
-import resume from '../Assets/resume.png'
-import linkedin from '../Assets/linkedin.webp'
+
 import headshot from '../Assets/HeadShot.jpg'
 
-const AboutMeComponent = () => {
+export default function AboutMeComponent() {
   return (
     <>
     <section>
@@ -40,7 +35,7 @@ const AboutMeComponent = () => {
           
           
           </h1>
-          <p className='text-[#bdc9d1] mt-4 sm:text-lg text-base font-medium lg:text-xl mb-6'>Welcome, as I stated before my name is Mike and I am currently enrolled in CodeStack Academy in Stockton, Ca. I have worked with several languages and frameworks on numerous differnt projects. During my time at CodeStack I have taken on the role as Project Manager, front end and back end.</p>
+          <p className='text-[#bdc9d1] mt-4 sm:text-lg text-base font-medium lg:text-xl mb-6'>Welcome, as I stated before my name is Michael and I am currently enrolled in CodeStack Academy in Stockton, Ca. I have worked with several languages and frameworks on numerous differnt projects. During my time at CodeStack I have taken on the role as Project Manager, front end and back end.</p>
         </div>
         <div className='col-span-5 place-self-center mt-4 lg:mt-0'>
           <div className='rounded-full relative bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] overflow-hidden'>
@@ -161,7 +156,6 @@ const AboutMeComponent = () => {
   )
 }
 
-export default AboutMeComponent
 
 
 
