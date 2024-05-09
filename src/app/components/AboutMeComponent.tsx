@@ -13,7 +13,7 @@ export default function AboutMeComponent() {
       <div className='grid grid-cols-1 sm:grid-cols-12'>
         <div className="col-span-7 place-self-center text-center sm:text-left">
             
-          <h1 className='text-white mb-4 text-3xl sm:text-6xl  lg:text-7xl font-extrabold'><span className='text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-blue-500'>Hi, My name is Mike. I'm a {""} </span>
+          <h1 className='text-white mb-4 text-3xl sm:text-6xl  lg:text-7xl font-extrabold'><span className='text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-blue-500'>Hi, My name is Mike. I&#39;m a {""} </span>
           <br />
           
           <TypeAnimation
