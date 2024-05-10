@@ -9,7 +9,7 @@ import linkedin from '../Assets/linkedinNew.jpg'
 const FooterComponent = () => {
   return (
     <>
-     <div id="ContactMe" className="min-h-[200px]">
+     <div id="ContactMe" className="min-h-[200px] text-teal-500">
           <div className="mx-20 flex justify-between">
             <div className="text-lg space-y-2 roboto my-6">
               <p className="text-2xl font-semibold">Michael Heckerman</p>

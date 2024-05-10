@@ -9,7 +9,7 @@ import headshot from '../Assets/HeadShot.jpg'
 export default function AboutMeComponent() {
   return (
     <>
-    <section>
+    <section className='pl-20'>
       <div id="AboutMe" className='grid grid-cols-1 sm:grid-cols-12'>
         <div className="col-span-7 place-self-center text-center sm:text-left">
             

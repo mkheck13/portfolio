@@ -13,6 +13,7 @@ const ProjectsComponent = () => {
   return (
     <>
      <h1 id="projects" className="text-center pt-12 fontlife font-bold text-4xl text-teal-500">Projects</h1>
+     <br />
 
      <div className='mx-60'>
 
