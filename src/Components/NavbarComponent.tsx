@@ -13,7 +13,7 @@ const NavbarComponent = () => {
 
 
     return (
-    <Navbar fluid className='text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-green-500' >
+    <Navbar fluid className='text-transparent bg-clip-text bg-teal-500' >
     <Navbar.Brand >
       <Image src={logo} className="mr-2 w-14 lg:w-16 h-auto" alt="Name Logo"/>
     </Navbar.Brand>

@@ -9,8 +9,8 @@ export default function SkillsComponent() {
   return (
     <>
 
-<div id="skills" className="grid grid-cols-4 gap-10 my-16 px-5 items-center ">
-          <div className="col-span-1 flex flex-col justify-center items-center">
+<div id="skills" className="grid grid-cols-4 gap-10 my-16 px-5 items-start ">
+          <div className="col-span-4 md:col-span-2 lg:col-span-1 flex flex-col justify-center items-center">
             <p className="text-4xl font-railway font-medium text-teal-500">Libraries</p>
             <div className="flex flex-row gap-4 mt-5 items-center">
               <Tooltip content="React" placement="bottom" style="light" className="px-4 mt-2 font-railway text-lg">
@@ -21,9 +21,9 @@ export default function SkillsComponent() {
               </Tooltip>
             </div>
           </div>
-          <div className="col-span-1 flex flex-col justify-center items-center">
+          <div className="col-span-4 md:col-span-2 lg:col-span-1 flex flex-col justify-center items-center">
             <p className="text-4xl font-railway font-medium text-teal-500">Languages</p>
-            <div className="flex flex-row gap-3 mt-5 items-center">
+            <div className="flex flex-row flex-wrap xl:flex-nowrap justify-center gap-3 mt-5 items-center">
               <Tooltip content="JavaScript" placement="bottom" style="light" className="px-4 mt-2 font-railway text-lg">
                 <Image src="/js.png" width={45} height={43} alt="react" className="rounded-sm" />
               </Tooltip>
@@ -44,7 +44,7 @@ export default function SkillsComponent() {
               </Tooltip>
             </div>
           </div>
-          <div className="col-span-1 flex flex-col justify-center items-center">
+          <div className="col-span-4 md:col-span-2 lg:col-span-1 flex flex-col justify-center items-center">
             <p className="text-4xl font-railway font-medium text-teal-500">Frameworks</p>
             <div className="flex flex-row gap-4 mt-5 items-center">
               <Tooltip content="TailwindCSS" placement="bottom" style="light" className="px-4 mt-2 font-railway text-lg">
@@ -58,9 +58,9 @@ export default function SkillsComponent() {
               </Tooltip>
             </div>
           </div>
-          <div className="col-span-1 flex flex-col justify-center items-center">
+          <div className="col-span-4 md:col-span-2 lg:col-span-1 flex flex-col justify-center items-center">
             <p className="text-4xl font-railway font-medium text-teal-500">Productivity</p>
-            <div className="flex flex-row gap-3 mt-5 items-center">
+            <div className="flex flex-row flex-wrap xl:flex-nowrap justify-center gap-3 mt-5 items-center">
               <Tooltip content="Visual Studio Code" placement="bottom" style="light" className="px-4 mt-2 font-railway text-lg">
                 <Image src="/vscode.png" width={47} height={47} alt="react" />
               </Tooltip>
