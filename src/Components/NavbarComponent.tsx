@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { Avatar, Button, Dropdown, Navbar } from 'flowbite-react'
 
 
-import logo from '../Assets/logoname.jpeg'
+import logo from '../Assets/MHLogo.png'
 
 
 const NavbarComponent = () => {
