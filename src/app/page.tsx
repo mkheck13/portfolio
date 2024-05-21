@@ -13,10 +13,10 @@ const Home = () => {
       <div className="flex min-h-screen flex-col  bg-[#121212]">
         <NavbarComponent />
 
-        <div>
+        <div className="container mx-auto mt-24 px-12 py-4">
           <AboutMeComponent />
 
-          <div>
+          
 
           <SkillsComponent/>
 
@@ -26,7 +26,7 @@ const Home = () => {
 
             <FooterComponent/>
 
-          </div>
+       
         </div>
       </div>
     </>
